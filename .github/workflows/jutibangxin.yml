@@ -1,25 +1,21 @@
 name: jutibangxin
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 5/6 * * *'
+    - cron: '53 2/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jutibangxin
         env:
-          il5: ${{ secrets.il5 }}
+          qie93: ${{ secrets.qie93 }}
         run: |
-          echo $il5 | jq -r .t08103 | /bin/bash
-          echo $r15176 | jq -r .nigt6008 | /bin/bash
-          echo $pqwk8 | jq -r .jbgkv13442 | /bin/bash
-          echo $t1972 | jq -r .nzbkm6481 | /bin/bash
-          echo $pusoa10157 | jq -r .pmhe04626 | /bin/bash
-          echo $kxbj595 | jq -r .g7 | /bin/bash
-          echo $vtl98757 | jq -r .zqrk43 | /bin/bash
+          echo $qie93 | jq -r .xbesh15222 | /bin/bash
+          echo $mznsy8948 | jq -r .cy427 | /bin/bash
+          echo $tzsf64 | jq -r .erog95 | /bin/bash
+          echo $pwh96267 | jq -r .pbq1205 | /bin/bash
+          echo $c99 | jq -r .tiawo47 | /bin/bash
 
